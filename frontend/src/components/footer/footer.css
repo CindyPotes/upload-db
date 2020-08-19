@@ -1,0 +1,12 @@
+.containerFooter {
+  height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  position: fixed;
+  bottom: 0px;
+  border: 1px solid #ccc;
+  color: #fff;
+}

@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.formGroup {
+  width: 80%;
+  display: flex;
+  margin: 20px;
+}
+
+.formTittle {
+  width: 100%;
+}
+
+.formControl {
+  width: 100%;
+  border: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.formButton {
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+  background: #e6e6e6;
+  border: 1px solid #045fb4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.formButton:hover {
+  background-color: #045fb4;
+  color: #fff;
+}
+
+.isBoxVisible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
